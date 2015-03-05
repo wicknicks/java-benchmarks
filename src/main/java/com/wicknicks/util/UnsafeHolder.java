@@ -17,10 +17,8 @@ public class UnsafeHolder {
 			Field theUnsafe = sun.misc.Unsafe.class.getDeclaredField("theUnsafe");
 			theUnsafe.setAccessible(true);
 			unsafe = (sun.misc.Unsafe) theUnsafe.get(null);
-		} catch (NoSuchFieldException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			e.printStackTrace();
+		} catch (Exception e) {
+			throw new RuntimeException();
 		}
 	}
 
