@@ -7,6 +7,7 @@ package com.wicknicks;
 import java.nio.ByteBuffer;
 import java.util.Random;
 
+import com.wicknicks.util.UnsafeHolder;
 import sun.misc.Unsafe;
 
 public class UnsafeVsByteBufferIntReadWrite {

@@ -2,7 +2,7 @@
  * Copyright (C) 2015 Turn Inc. All Rights Reserved.
  * Proprietary and confidential.
  */
-package com.wicknicks;
+package com.wicknicks.util;
 
 import java.lang.reflect.Field;
 
